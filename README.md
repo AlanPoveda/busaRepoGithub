@@ -15,6 +15,13 @@ Usando a API do gitHub https://api.github.com
 
 # Plugins and dependecies
 
+
+"dependencies"
+- "axios": "^0.21.0"
+
+
+"devDependencies"
+
 - "@babel/core": "^7.12.3"
 - "@babel/cli": "^7.12.1"
 - "@babel/plugin-proposal-object-rest-spread": "^7.12.1"
@@ -25,4 +32,6 @@ Usando a API do gitHub https://api.github.com
 - "webpack": "^5.4.0"
 - "webpack-cli": "^4.2.0"
 - "webpack-dev-server": "^3.11.0"
+
+
 
