@@ -81,17 +81,17 @@ class App {
             let linkUserEl = document.createElement('a');
             linkUserEl.setAttribute('target','_blank');
             linkUserEl.setAttribute('href', repo.html_url);
-            linkUserEl.appendChild(document.createTextNode('Link Perfil'));
+            linkUserEl.appendChild(document.createTextNode('Link Perfil 🐱‍🏍'));
 
             let linkRepoEl = document.createElement('a');
             linkRepoEl.setAttribute('target', '_blank');
             linkRepoEl.setAttribute('href', repo.repositories);
-            linkRepoEl.appendChild(document.createTextNode('Link Repositórios'))
+            linkRepoEl.appendChild(document.createTextNode('Link Repositórios 🐱‍👓'))
             
             //Criação da lista
             let listItemEl = document.createElement('li');
-            listItemEl.appendChild(imgEl);
             listItemEl.appendChild(titleEl);
+            listItemEl.appendChild(imgEl);
             listItemEl.appendChild(linkUserEl);
             listItemEl.appendChild(linkRepoEl);
             
