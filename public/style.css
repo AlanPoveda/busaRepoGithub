@@ -1,5 +1,9 @@
+
+
 body{
     background-color: aquamarine;
+    align-items: center;
+    text-align: center;
     
 }
 
@@ -11,6 +15,7 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     font-family: sans-serif;
     font-size: 20px;
 }
@@ -58,11 +63,14 @@ a:hover{
 }
 
 input{
+    width: auto;
     border-radius: 3rem;
     border: none;
     height: 30px;
+    text-align: center;
     
 }
+
 
 /*Buttons*/
 button{
